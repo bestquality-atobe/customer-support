@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Best Quality｜ミニアプリ使い方ガイド（カスタマーサポート）</title>
+  <meta name="description" content="Best Quality のLINEミニアプリで写真を撮影・自動アップロードし、専門家のコメントを受け取るまでの使い方ガイドとFAQ。" />
+  <style>
+    :root { --accent: #0ea5e9; --ink:#111827; --muted:#475569; --bg:#ffffff; --card:#f8fafc; --line:#e5e7eb; }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;line-height:1.8}
+    .wrap{max-width:920px;margin:0 auto;padding:24px 16px 72px}
+    header{padding:16px 0 8px}
+    h1{font-size:1.9rem;margin:0 0 .5rem}
+    .lead{color:var(--muted);margin:0}
+    nav.toc{margin:20px 0 32px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+    .toc ul{margin:0;padding:12px 16px;list-style:none}
+    .toc a{color:var(--accent);text-decoration:none}
+    h2{font-size:1.4rem;margin:2rem 0 .75rem;border-left:4px solid var(--accent);padding-left:10px}
+    h3{font-size:1.15rem;margin:1.25rem 0 .5rem}
+    p,li{font-size:1rem}
+    .card{border:1px solid var(--line);border-radius:16px;padding:16px;background:var(--card)}
+    .steps{counter-reset:step}
+    .steps li{counter-increment:step;margin:.5rem 0}
+    .steps li::before{content:counter(step);display:inline-grid;place-items:center;width:28px;height:28px;border-radius:999px;background:var(--accent);color:#fff;font-weight:600;margin-right:.5rem}
+    .note{font-size:.95rem;color:var(--muted)}
+    .grid{display:grid;gap:12px}
+    @media(min-width:720px){.grid.cols-2{grid-template-columns:1fr 1fr}}
+    .timeline{position:relative;margin-left:10px}
+    .timeline::before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--line)}
+    .tick{position:relative;padding-left:28px;margin:14px 0}
+    .tick::before{content:"";position:absolute;left:4px;top:.5em;width:14px;height:14px;border-radius:999px;background:var(--accent)}
+    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;border:1px solid var(--line);border-bottom-width:2px;padding:.05rem .35rem;border-radius:6px;background:#fff}
+    .faq details{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
+    .faq summary{cursor:pointer;font-weight:600}
+    footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+    a{color:var(--accent)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:#fff;text-decoration:none}
+    .btn:hover{box-shadow:0 2px 10px rgba(0,0,0,.06)}
+    .warn{background:#fff7ed;border-color:#fed7aa}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>ミニアプリ使い方ガイド（カスタマーサポート）</h1>
+      <p class="lead">写真を撮影 → 自動アップロード → 専門家が確認 → コメントをLINEで受け取る、までの流れを説明します。</p>
+    </header>
+
+    <nav class="toc card" aria-label="目次">
+      <ul>
+        <li><a href="#quickstart">クイックスタート（最短手順）</a></li>
+        <li><a href="#prepare">ご利用前の準備</a></li>
+        <li><a href="#howto">使い方（くわしい手順）</a></li>
+        <li><a href="#flow">写真の取扱いと通知の流れ</a></li>
+        <li><a href="#faq">よくある質問（FAQ）</a></li>
+        <li><a href="#trouble">トラブルシューティング</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+        <li><a href="#policy">ポリシー・規約</a></li>
+      </ul>
+    </nav>
+
+    <section id="quickstart">
+      <h2>クイックスタート（最短手順）</h2>
+      <ol class="steps">
+        <li>LINEアプリで <span class="kbd">Best Quality ミニアプリ</span> を開く</li>
+        <li>カメラアクセスを <strong>許可</strong> する</li>
+        <li>ガイド線に合わせて爪を撮影（ピントと明るさを確認）</li>
+        <li>写真は <strong>自動でサーバーにアップロード</strong> されます</li>
+        <li>Best Qualityの専門家が確認後、<strong>LINEのトーク</strong> にコメントが届きます</li>
+      </ol>
+      <p class="note">※ 本アプリは医療行為ではありません。気になる症状は医療機関にご相談ください。</p>
+    </section>
+
+    <section id="prepare" class="grid cols-2">
+      <div>
+        <h2>ご利用前の準備</h2>
+        <ul>
+          <li>最新の <strong>LINEアプリ</strong></li>
+          <li>安定した通信環境（Wi‑Fi推奨）</li>
+          <li>端末の <strong>カメラ権限</strong> を許可</li>
+          <li>爪の汚れを拭き、明るい場所で撮影</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>うまく撮るコツ</h3>
+        <ul>
+          <li>爪全体がフレームに入るようにする</li>
+          <li>ピントが合うまで数秒待つ</li>
+          <li>影が写らないよう光源を正面に</li>
+          <li>同じ向きで2〜3枚撮ると精度向上</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="howto">
+      <h2>使い方（くわしい手順）</h2>
+      <div class="card">
+        <h3>1. ミニアプリを起動</h3>
+        <p>LINEのホーム &rarr; サービス から <em>Best Quality ミニアプリ</em> を選択（または配布されたURL/QRコードから起動）。初回は注意事項を確認してください。</p>
+      </div>
+      <div class="card">
+        <h3>2. カメラを許可</h3>
+        <p>画面の案内に従ってカメラアクセスを許可します。誤って不許可にした場合は、端末設定 &rarr; アプリ &rarr; LINE &rarr; 権限 から「カメラ」をオンにしてください。</p>
+      </div>
+      <div class="card">
+        <h3>3. ガイド線に合わせて撮影</h3>
+        <p>ミニアプリ上の <strong>ガイド線</strong> に爪の位置・向きを合わせて撮影します（※端末によりUIが異なる場合があります）。</p>
+      </div>
+      <div class="card">
+        <h3>4. 自動アップロード</h3>
+        <p>撮影後、写真は暗号化通信で <strong>自動アップロード</strong> されます。複数枚撮影した場合は、送信完了の表示を確認してください。</p>
+      </div>
+      <div class="card">
+        <h3>5. 専門家のコメントを受け取る</h3>
+        <p>Best Qualityの専門家が内容を確認し、<strong>LINEトーク</strong> にコメントが届きます。必要に応じて再撮影や受診の推奨などの案内が含まれます。</p>
+      </div>
+      <p class="note warn card">重要：本サービスは診断や治療を提供するものではありません。症状が気になる場合は、必ず医師の診察を受けてください。</p>
+    </section>
+
+    <section id="flow">
+      <h2>写真の取扱いと通知の流れ</h2>
+      <div class="timeline">
+        <div class="tick"><strong>撮影</strong>：ミニアプリで爪を撮影</div>
+        <div class="tick"><strong>送信</strong>：暗号化通信で自動アップロード</div>
+        <div class="tick"><strong>確認</strong>：専門家が目視・AIの判定結果を参照</div>
+        <div class="tick"><strong>返信</strong>：LINEのトークにコメントを送信</div>
+        <div class="tick"><strong>フォロー</strong>：必要に応じて再撮影や医療機関連携のご案内</div>
+      </div>
+      <p class="note">個人情報の取り扱いは「プライバシーポリシー」を、サービス利用条件は「利用規約」をご確認ください（ページ下部にリンクがあります）。</p>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>よくある質問（FAQ）</h2>
+      <div class="grid">
+        <details>
+          <summary>写真は端末に保存されますか？</summary>
+          <p>端末設定により保存される場合があります。ミニアプリ側では撮影後にサーバーへ送信し、端末保存は必須ではありません。</p>
+        </details>
+        <details>
+          <summary>アップロードに失敗します</summary>
+          <p>通信環境を確認し、Wi‑Fiで再試行してください。LINEの権限（カメラ・ストレージ）が無効だと失敗する場合があります。</p>
+        </details>
+        <details>
+          <summary>返信はどこに届きますか？</summary>
+          <p>LINEのトーク画面にメッセージとして届きます。通知がオフの場合は見逃しにご注意ください。</p>
+        </details>
+        <details>
+          <summary>医療相談はできますか？</summary>
+          <p>本サービスは医療行為ではありません。症状の相談や受診が必要な場合は医療機関をご利用ください。</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="trouble">
+      <h2>トラブルシューティング</h2>
+      <ul>
+        <li><strong>カメラが真っ暗</strong>：端末のカメラ権限を許可し、他アプリでカメラが使用中でないか確認。</li>
+        <li><strong>送信が終わらない</strong>：電波が弱い可能性。Wi‑Fiに切り替えるか、しばらく待ってから再試行。</li>
+        <li><strong>トークに返信が来ない</strong>：通知設定を確認。数時間経っても来ない場合はお問い合わせください。</li>
+        <li><strong>再撮影の依頼が来た</strong>：ピント・明るさ・ガイド線への位置合わせを見直し、もう一度撮影してください。</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>お問い合わせ</h2>
+      <p>ご不明点はメールにてお問い合わせください：
+        <a href="mailto:bq@bestquality.jp">bq@bestquality.jp</a>
+      </p>
+    </section>
+
+    <section id="policy">
+      <h2>ポリシー・規約</h2>
+      <p>
+        <a class="btn" href="privacy-policy.html">プライバシーポリシー</a>
+        <a class="btn" href="terms-of-service.html" style="margin-left:8px">サービス利用規約</a>
+      </p>
+      <p class="note">データの扱いやサービス条件の詳細は上記ページをご確認ください。</p>
+    </section>
+
+    <footer>
+      <p>© 株式会社Best Quality</p>
+    </footer>
+  </main>
+</body>
+</html>
